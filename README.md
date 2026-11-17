@@ -7,13 +7,15 @@ Smart eSim Assistant is a Python-based automated tool manager developed for the 
 It checks whether essential electronic design and simulation tools are installed, displays their versions, and helps install missing tools.
 
 ## Features
-- Detects installed tools.
-- Checks tool versions.
-- Installs missing tools using the Ubuntu package manager.
-- Checks Python dependencies.
-- Records activities in a log file.
-- Provides a simple menu-driven interface.
 
+- Detects installed electronic design tools.
+- Checks tool versions.
+- Identifies missing tools.
+- Installs missing tools using the command-line installer.
+- Checks Python dependencies.
+- Records application activities in a log file.
+- Provides a graphical dashboard using Streamlit.
+- Displays tool status, versions, dependencies and activity logs.
 ## Supported Tools
 - Python
 - Git
